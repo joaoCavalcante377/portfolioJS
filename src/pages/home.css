@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+    h1{
+        font-size: 96px;
+        color: #fff;
+    }
+    p{
+        font-size: 48px;
+        color: #656565;
+    }button{
+        color: #fff;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+}

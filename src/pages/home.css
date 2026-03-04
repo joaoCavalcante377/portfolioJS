@@ -4,27 +4,28 @@ main{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    font-family: "Ranade";
+    gap: 10px;
 
     h1{
+        line-height: 0.8;
+        font-weight: 700;
+        font-style: italic;
         font-size: 96px;
         color: #fff;
     }
     p{
+        font-weight: 100;
+        font-style: italic;
         font-size: 48px;
         color: #656565;
     }button{
         color: #000;
-        border-radius: 20px;
+        border-radius: 40px;
         cursor: pointer;
-        padding: 16px 60px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 14px 30px;
+        font-size: x-large;
+        font-family: "Ranade";
+        font-weight: 700;
      }
-
-
-
-
-
-
-
-
 }

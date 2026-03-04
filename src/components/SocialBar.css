@@ -1,0 +1,7 @@
+.SocialBar{
+    display: flex;
+    justify-content: right;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+}

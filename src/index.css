@@ -13,3 +13,8 @@ a {
   color: #fff;
   text-decoration: none;
 }
+@font-face {
+  font-family:"Ranade";
+  src:url(./assets/Ranade_Complete/Fonts/TTF/Ranade-Variable.ttf);
+  
+}

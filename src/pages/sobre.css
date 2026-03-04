@@ -1,0 +1,23 @@
+.sobreMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    font-family: "Ranade";
+    gap: 500px;
+    margin: 30px 136px;
+}
+.sobreMain h1{
+    font-weight: 700;
+    font-size: 48px;
+    
+}
+.sobreMain p{
+    color: #fff;
+    padding: 10px;
+    font-style: normal;
+    max-width: 700px;
+
+    
+}

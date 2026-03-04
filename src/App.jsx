@@ -1,23 +1,18 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Background from './components/background'
 import Home from './pages/home'
 import Sobre from './pages/sobre'
 import Projetos from './pages/projetos'
 
-
-
-
 function App() {
-
   return (
-    <BrowserRouter>
+    <>
+      <Background/>
       <Navbar/>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/sobre' element={<Sobre />} />
-        <Route path='/projetos' element={<Projetos/>} />
-      </Routes>
-    </BrowserRouter>
+      <section id="home"><Home /></section>
+      <section id="sobre"><Sobre /></section>
+      <section id="projetos"><Projetos /></section>
+    </>
   )
 }
 

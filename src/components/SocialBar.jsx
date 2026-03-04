@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import "./SocialBar.css"
 
 function SocialBar(){
     return(

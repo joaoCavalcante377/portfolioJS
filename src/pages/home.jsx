@@ -6,9 +6,9 @@ function Home(){
     <>
       <SocialBar/>
       <main>
-        <h1>João Cavalcante</h1>
+        <h1 className="muda-tema">João Cavalcante</h1>
         <p>Desenvolvedor de Software</p>
-        <button>Baixe meu curriculo</button>
+        <button className="muda-tema">Baixe meu curriculo</button>
       </main>
     </>
   )

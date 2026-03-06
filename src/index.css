@@ -20,3 +20,12 @@ a {
   src:url(./assets/Ranade_Complete/Fonts/TTF/Ranade-Variable.ttf);
   
 }
+.botao-tema{
+        color: #000;
+        border-radius: 40px;
+        cursor: pointer;
+        padding: 10px 15px;
+        font-size: 10px;
+        font-family: "Ranade";
+        font-weight: 700;
+}

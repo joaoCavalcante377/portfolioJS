@@ -18,6 +18,9 @@
     padding: 10px;
     font-style: normal;
     max-width: 700px;
+    font-size: 40px;
 
     
+}.sobreMain img{
+    border-radius: 40px;
 }

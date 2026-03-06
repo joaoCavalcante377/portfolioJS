@@ -33,9 +33,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="links" ref={navRef}>
         <div className="slider" ref={sliderRef}></div>
-        <a href="#home" className={active === "home" ? "active" : ""}>Home</a>
-        <a href="#sobre" className={active === "sobre" ? "active" : ""}>Sobre</a>
-        <a href="#projetos" className={active === "projetos" ? "active" : ""}>Projetos</a>
+        <a href="#home" className={`muda-tema ${active === "home" ? "active" : ""}`}>Home</a>
+        <a href="#sobre" className={`muda-tema ${active === "sobre" ? "active" : ""}`}>Sobre</a>
+        <a href="#projetos" className={`muda-tema ${active === "projetos" ? "active" : ""}`}>Projetos</a>
       </div>
     </nav>
   )

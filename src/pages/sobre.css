@@ -23,4 +23,8 @@
     
 }.sobreMain img{
     border-radius: 40px;
+    width: 350px;
+    height: 650px;
+    object-fit: cover;
 }
+

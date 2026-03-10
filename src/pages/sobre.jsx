@@ -1,4 +1,5 @@
 import "./sobre.css"
+import foto from "../assets/Foto.jpeg"
 
 function Sobre(){
     return (
@@ -8,7 +9,7 @@ function Sobre(){
                 <p>Me chamo João Vitor Cavalcante de Oliveira e atualmente estou cursando Desenvolvimento de Software Multiplataforma, Busco uma oportunidade para ingressar no mercado de trabalho e contribuir com minhas habilidades para o crescimento da empresa.</p>
             </div>
             <div>
-                <img src="https://placehold.co/360x650" alt="foto"></img>
+                <img src={foto} alt="foto"></img>
             </div>
         </main>
     )

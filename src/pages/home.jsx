@@ -1,4 +1,4 @@
-import './Home.css'
+import './home.css'
 import SocialBar from '../components/SocialBar.jsx'
 
 function Home(){

@@ -1,0 +1,83 @@
+.logo-loop-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 16px 0;
+}
+
+.logo-loop-track {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo-loop-inner {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: logo-scroll 30s linear infinite;
+}
+
+.logo-loop-inner:hover {
+  animation-play-state: paused;
+}
+
+@keyframes logo-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.logo-loop-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 1px solid #1f1f1f;
+  background-color: #0d0d0d;
+  transition: border-color 0.2s, transform 0.2s;
+  cursor: default;
+  min-width: 90px;
+}
+
+.logo-loop-item:hover {
+  border-color: #444;
+  transform: translateY(-4px);
+}
+
+.logo-loop-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+
+.logo-loop-name {
+  font-size: 11px;
+  color: #666;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+
+.logo-loop-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.logo-loop-fade-left {
+  left: 0;
+  background: linear-gradient(to right, #000 0%, transparent 100%);
+}
+
+.logo-loop-fade-right {
+  right: 0;
+  background: linear-gradient(to left, #000 0%, transparent 100%);
+}

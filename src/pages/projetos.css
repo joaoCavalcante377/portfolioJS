@@ -1,0 +1,11 @@
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Ranade";
+    margin: 30px 136px;
+    
+}

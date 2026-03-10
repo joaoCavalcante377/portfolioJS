@@ -1,0 +1,156 @@
+.exp-section {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.exp-heading {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #555;
+  margin: 0 0 48px 0;
+}
+
+
+.exp-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.exp-item {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+
+.exp-line-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+.exp-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  border: 2px solid #333;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.exp-dot-active {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.exp-dot-pulse {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.4; }
+  50% { transform: scale(1.5); opacity: 0; }
+}
+
+.exp-line {
+  width: 1px;
+  flex: 1;
+  min-height: 40px;
+  background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
+  margin: 6px 0;
+}
+
+
+.exp-card {
+  flex: 1;
+  background-color: #0d0d0d;
+  border: 1px solid #1a1a1a;
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s;
+}
+
+.exp-card-active {
+  border-color: #2a2a2a;
+  background-color: #111;
+}
+
+.exp-card:hover {
+  border-color: #333;
+}
+
+.exp-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.exp-title {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.exp-subtitle {
+  font-size: 12px;
+  color: #666;
+  font-weight: 400;
+}
+
+.exp-period {
+  font-size: 11px;
+  color: #444;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.exp-period-active {
+  color: #888;
+}
+
+.exp-desc {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.exp-desc:last-child {
+  margin-bottom: 0;
+}
+
+.exp-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 999px;
+  padding: 3px 10px;
+}

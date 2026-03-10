@@ -8,7 +8,9 @@ function Home(){
       <main>
         <h1 className="muda-tema">João Cavalcante</h1>
         <p>Desenvolvedor de Software</p>
-        <button className="muda-tema">Baixe meu curriculo</button>
+        <button className="muda-tema" onClick={() => window.open('/CurriculoJoaoCavalcante.pdf', '_blank')}>
+  Baixe meu currículo
+</button>
       </main>
     </>
   )

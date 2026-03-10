@@ -1,5 +1,5 @@
 import Experience from "../components/Experiencia"
-import LogoLoop from "../components/Logoloop"
+import LogoLoop from "../components/LogoLoop"
 import ProjectCarousel from "../components/ProjectCarousel"
 import "./projetos.css"
 

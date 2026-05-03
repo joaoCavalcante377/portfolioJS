@@ -13,7 +13,7 @@ function Sobre() {
         </p>
       </div>
       <div>
-        <img src="/Foto.jpeg" alt="Minha foto" />
+        <img src="./Foto.jpeg" alt="Minha foto" />
       </div>
     </main>
   );

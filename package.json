@@ -12,6 +12,7 @@
   "dependencies": {
     "devicons-react": "^1.5.0",
     "embla-carousel-react": "^8.6.0",
+    "json-server": "^1.0.0-beta.15",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.6.0",

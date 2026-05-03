@@ -1,0 +1,23 @@
+{
+  "projetos": [
+    {
+      "id": "1",
+      "title": "Projeto de Upload de arquivos",
+      "description": "Feito 100% em JavaScript. É uma aplicação fullstack com uma interface para upload de arquivos no frontend e um servidor no backend para receber e processar esses uploads.",
+      "img": "/image.png"
+    },
+    {
+      "id": "2",
+      "title": "Projeto API",
+      "description": "Dashboard web com gráficos e mapa interativo dos dados do Censo 2022 de São José dos Campos, desenvolvido em equipe com Python e Flask.",
+      "img": "/codewave_projeto.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Projeto de carrinho de compras",
+      "description": "Interface de e-commerce em HTML, CSS e JS com carrinho de compras funcional.",
+      "img": "/carrinhoDeCompras.png"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

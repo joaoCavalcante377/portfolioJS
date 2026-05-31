@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 export function useProjects() {
   const [projects, setProjects] = useState([]);
 
-  const API_URL = "https://69f692f8a72f01a951b96fc9.mockapi.io/projects";
+  const API_URL = "http://localhost:4000/projects";
 
   useEffect(() => {
     fetch(API_URL)
